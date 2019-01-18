@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'SC-Medium';
+    src: url('../font/思源黑体SC-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'SC-Medium';
+}
+.gmHead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.gmHead a {
+    margin-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: #282828;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.gmHead a:hover {
+    border-bottom: 2px solid #282828;
+}
+.gmHead-ss{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    display: flex;
+    align-items:center;
+}
+.gmHead-ss>img{
+    width: 30px;
+    padding-right: 30px;
+}

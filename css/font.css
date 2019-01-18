@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PlantinStdBold';
+    src: url('../fonts/PlantinStd-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SC-Medium';
+    src: url('../fonts/思源黑体SC-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}

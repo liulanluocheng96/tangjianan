@@ -1,0 +1,478 @@
+/*总体*/
+*{
+	padding:0;
+	margin:0;
+}
+embed{
+    width: 100%;
+    height: 581px;
+    display: block;
+    margin-top: 50px;
+}
+section{
+	width:100%;
+	/*overflow: hidden;
+	display:flex;
+	justify-content: center;*/
+}
+section img{
+	width:100%;
+}
+.content{
+	width:1200px;
+	margin:0 auto;
+	margin-top:100px;
+	display:flex;
+	justify-content: space-between;
+}
+.content img{
+	width:420px;
+	height:300px;
+	cursor: pointer;
+}
+.middle-left{
+	width: 500px;
+}
+.middle-left>img:nth-of-type(2){
+	margin-top: -40px;
+    margin-left: 80px;
+}
+.middle-right{
+	width:500px;
+}
+.middle-right h1{
+	font-family:"PlantinStdBold";
+	font-weight: 8;
+	color:#333333;
+}
+.middle-right>.xiu{
+	margin-left: 3px;
+	font-size: 20px;
+	margin-top: 15px;
+	font-weight: 8;
+}
+.middle-right>p:nth-of-type(2){
+	margin-top: 90px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.middle-right>p{
+	font-size: 20px;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+}
+.project img{
+	width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.project {
+	margin-top: 25px;
+}
+.project>img:nth-of-type(1){
+	    margin-left: -16px;
+}
+.project>img:nth-of-type(2){
+	margin-left: 10px;
+}
+.project>img:nth-of-type(3){
+	margin-left: 9px;
+}
+.skg{
+	display:flex;
+}
+.skg p{
+	display: inline-block;
+	color:#53a9cc;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+}
+.skg>p:nth-of-type(1){
+	margin-left: 3px;
+}
+.skg>p:nth-of-type(2){
+	margin-left: 55px;
+}
+.skg>p:nth-of-type(3){
+	margin-left: 42px;
+}
+.sug{
+	display:flex;
+	margin-top: 5px;
+}
+.sug p{
+	display: inline-block;
+	color:#53a9cc;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+}
+.sug>p:nth-of-type(1){
+	margin-left: 14px;
+}
+.sug>p:nth-of-type(2){
+	margin-left: 82px;
+}
+.sug>p:nth-of-type(3){
+	margin-left: 86px;
+}
+.more{
+	width:152px;
+	height:40px;
+	border-radius: 6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 68px;
+    margin-left: 76px;
+    background:#50b8f7;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.mor{
+	width:152px;
+	height:40px;
+	border-radius: 6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 68px;
+    background:#50b8f7;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.mor>a{
+	color:#fdfcfc;
+	text-decoration:none;
+}
+.mor:hover{
+	opacity:1;
+	cursor:pointer;
+}
+.more>a{
+	color:#fdfcfc;
+	text-decoration:none;
+}
+.more:hover{
+	opacity:1;
+	cursor:pointer;
+}
+<!--Fitness facilities-->
+/*.fit{
+	width:100%;
+	margin-top:100px;
+}*/
+/*.fit{
+	display:flex;
+	justify-content: space-around;
+}*/
+.fit>.fit-left{
+	width:50%;
+}
+.fit>.fit-right>img{
+	width:960px;
+	height:640px;
+	cursor: pointer;
+}
+.fit-left>.jian{
+	font-size: 20px;
+	margin-top: 15px;
+	font-weight: 8;
+}
+.fit-left>p:nth-of-type(2){
+    font-size: 20px;
+    line-height: 35px;
+}
+.fit-left>p{
+	margin-top:15px;
+	font-size: 20px;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+}
+.fit-left>.habit{
+	margin-top:15px;
+	font-size: 20px;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+}
+.fit-left{
+	margin-top: 150px;
+}
+.fit-left h1{
+	font-family:"PlantinStdBold";
+}
+.oop{
+	width: 1200px;
+    margin: 0 auto;
+	text-align: center;
+}
+.oop h1{
+	font-family:"PlantinStdBold";
+}
+.oop p{
+	margin-top: 15px;
+	font-family: 'SC-Medium';
+	font-size: 20px;
+	font-weight: 8;
+}
+.opt{
+	width: 1200px;
+    margin: 0 auto;
+    height:590px;
+	text-align: center;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 25px;
+}
+.opt img{
+	width: 376px;
+	height: 280px;
+	border-radius: 16px;
+}
+.ctn{
+	width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.opt div{
+	width:1200px;
+	height:280px;
+	display:flex;
+	justify-content: space-between;
+}
+.pb{
+	width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:35px;
+}
+.pb p{
+	font-family: 'SC-Medium';
+	font-size: 20px;
+	line-height: 35px;
+}
+.mo{
+	width:152px;
+	height:40px;
+	border-radius: 6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 68px;
+    background:#50b8f7;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.mo>a{
+	color:#fdfcfc;
+	text-decoration:none;
+}
+.mo:hover{
+	opacity:1;
+	cursor:pointer;
+}
+.ws img{
+	width: 60px;
+    height: 60px;
+}
+.ws img:hover{
+	cursor:pointer;
+}
+.opt img:hover{
+	cursor:pointer;
+}
+.sky{
+	width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    margin-top: -36px;
+}
+.ws{
+	margin-top: 25px;
+}
+/*Have your Dearm Cruise planned*/
+.planned{
+	width:100%;
+	height:332px;
+	background:#2878b3;
+	margin-top: 100px;
+	display:flex;
+    align-items:center;
+}
+.Dearm-c{
+	width: 1200px;
+    margin: 0 auto;
+}
+.cruise-left{
+	width:50%;
+	float:left;
+}
+.cruise-right{
+	width:50%;
+	float:right;
+}
+.cruise-right p{
+	color:#fdfcfc;
+	font-family: 'SC-Medium';
+	font-size: 20px;
+	line-height: 38px;
+    margin-top: 28px;
+}
+.cruise-right h1{
+	color:#fdfcfc;
+	font-family:"PlantinStdBold";
+}
+.mor-e{
+	width: 126px;
+	height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 68px;
+    background:#fdfcfc;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.mor-e>a{
+	color:#2878b3;
+	text-decoration:none;
+}
+.mor-e:hover{
+	opacity:1;
+	cursor:pointer;
+	transition:all 2s;
+}
+.plf{
+	float: right;
+	width: 186px;
+	height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: -42px;
+    margin-right: 240px;
+    background:#2878b3;
+    border:2px solid #fdfcfc;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.plf>a{
+	color:#fdfcfc;
+	text-decoration:none;
+}
+.plf:hover{
+	opacity:1;
+	cursor:pointer;
+	transition:all 2s;
+}
+.Available{
+	width: 1200px;
+    margin: 0 auto;
+    display:flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.aai h1{
+	font-family:"PlantinStdBold";
+	font-weight: 8;
+	color:#333333;
+}
+.aai p{
+	font-size: 19px;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+	margin-top: 25px;
+    line-height: 35px;
+}
+.aai>.lc{
+	width:68px;
+	height:80px;
+	margin-top: 25px;
+}
+.aai{
+    width: 385px;
+}
+.plf-l{
+	width: 136px;
+	height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:126px;
+    margin-right: 240px;
+    background:#50b8f7;
+    border:2px solid #fdfcfc;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+}
+.plf-l>a{
+	color:#fdfcfc;
+	text-decoration:none;
+}
+.plf-l:hover{
+	opacity:1;
+	cursor:pointer;
+	transition:all 2s;
+}
+.plf-p{
+	width: 186px;
+	height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-44px;
+    background:#fdfcfc;
+    border:2px solid #2878b3;
+    font-family: 'SC-Medium';
+    font-weight: 8;
+    opacity:0.8;
+    margin-left: 166px;
+}
+.plf-p>a{
+	color:#2878b3;
+	text-decoration:none;
+}
+.plf-p:hover{
+	opacity:1;
+	cursor:pointer;
+	transition:all 2s;
+	background:#50b8f7;
+}
+.iri img{
+	width:260px;
+	height:166px;
+	transform: rotateY(180deg);
+}
+.iri h3{
+	margin-top: 10px;
+	font-family:"PlantinStdBold";
+	font-weight: 8;
+	color:#333333;
+}
+.iri p{
+	font-size: 16px;
+	font-family: 'SC-Medium';
+	font-weight: 8;
+	margin-top: 16px;
+    line-height: 32px;
+}
+.iri>.blc{
+	width:210px;
+	height:36px;
+	margin-top: 76px;
+	transform: rotateY(360deg);
+}
+.iri>.lc{
+	margin-top: 108px;
+}
+.iri>.bc{
+	margin-top: 140px;
+}

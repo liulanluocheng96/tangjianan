@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+embed {
+  width: 100%;
+  height: 581px;
+  display: block;
+  margin-top: 50px;
+}
+section {
+  width: 100%;
+  position: relative;
+}
+section ul {
+  height: 1027px;
+  position: relative;
+}
+section ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 1027px;
+  opacity: 0;
+}
+section ul li:nth-of-type(1) {
+  opacity: 1;
+}
+section div {
+  width: 50%;
+  position: absolute;
+  height: 122px;
+  bottom: 0;
+}
+section .lf {
+  left: 0;
+  background: white;
+}
+section .rt {
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+}
+section .rt p {
+  display: inline-block;
+  font-size: 17px;
+  color: white;
+  line-height: 122px;
+  font-family: 'PlantinStdBold';
+}
+section .rt i {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  background: white;
+  margin-left: 80px;
+}
+section .rt i:nth-of-type(1) {
+  background: transparent;
+}
+.visit {
+  width: 100%;
+  position: relative;
+  height: 784px;
+}
+.visit .lft {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 506px;
+}
+.visit .lft div {
+  width: 560px;
+  margin: auto;
+}
+.visit .lft div h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: 'PlantinStdBold';
+  color: #282828;
+}
+.visit .lft div h3 {
+  font-size: 34px;
+  margin-bottom: 50px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.visit .lft div p {
+  font-size: 25px;
+  line-height: 40px;
+  font-family: 'SC-Medium';
+  color: #282828;
+  margin-bottom: 10px;
+}
+.visit .rig {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 506px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visit .rig div {
+  margin-left: 172px;
+}
+.visit .rig div h3 {
+  font-size: 30px;
+  margin-top: 128px;
+  margin-bottom: 56px;
+  font-family: 'PlantinStdBold';
+  color: #282828;
+}
+.visit .rig div p {
+  font-size: 27px;
+  line-height: 60px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.visit .rig div p i {
+  display: inline-block;
+  width: 27px;
+  border: 1.5px solid;
+  margin-bottom: 9px;
+}
+.bedroombg {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 870px;
+}
+.otherrooms {
+  width: 100%;
+}
+.otherrooms > div {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 140px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.otherrooms > div h2 {
+  font-size: 36px;
+  margin-bottom: 72px;
+  font-family: 'PlantinStdBold';
+  color: #282828;
+}
+.otherrooms > div p {
+  font-size: 20px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.otherrooms > div > ul > li {
+  list-style: none;
+  width: 394px;
+  height: 600px;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  top: 322px;
+}
+.otherrooms > div > ul > li img {
+  width: 394px;
+  height: 256px;
+}
+.otherrooms > div > ul > li div {
+  position: static;
+  width: 156px;
+  height: 150px;
+  text-align: left;
+  margin: auto;
+  margin-top: 156px;
+}
+.otherrooms > div > ul > li div p {
+  font-size: 16px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.otherrooms > div > ul > li div p i {
+  display: inline-block;
+  width: 31px;
+  border: 1px solid;
+  margin-bottom: 5px;
+}
+.otherrooms > div > ul > li div span {
+  font-size: 27px;
+  color: #3599d8;
+  font-family: 'SC-Medium';
+}
+.otherrooms > div > ul > li div div {
+  width: 54px;
+  height: 20px;
+  background: #7e7e7e;
+  color: white;
+  position: static;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otherrooms > div > ul > li div div span {
+  font-size: 13px;
+  line-height: 20px;
+  color: white;
+  font-family: 'SC-Medium';
+}
+.otherrooms > div > ul > li div div span:after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  transform: rotate(45deg);
+  margin-bottom: 1px;
+}
+.otherrooms > div > ul .p1 {
+  transform: translate3d(-394px, 0, 0) scale(0.81);
+}
+.otherrooms > div > ul .p2 {
+  transform: translate3d(0px, 0, 0) scale(0.81);
+  transform-origin: 0 50%;
+  opacity: 0.8;
+  z-index: 2;
+}
+.otherrooms > div > ul .p3 {
+  width: 670px;
+  height: 720px;
+  left: 50%;
+  transform: translate3d(-50%, -66px, 0) scale(1);
+  z-index: 3;
+  opacity: 1;
+}
+.otherrooms > div > ul .p3 img {
+  width: 670px;
+  height: 450px;
+}
+.otherrooms > div > ul .p3 div {
+  margin-top: 50px;
+  width: 158px;
+}
+.otherrooms > div > ul .p3 div p {
+  font-size: 22px;
+}
+.otherrooms > div > ul .p3 div span {
+  font-size: 27px;
+}
+.otherrooms > div > ul .p3 div div {
+  width: 54px;
+  height: 20px;
+  position: static;
+  margin: 0;
+}
+.otherrooms > div > ul .p3 div div span {
+  font-size: 13px;
+}
+.otherrooms > div > ul .p4 {
+  transform: translate3d(806px, 0, 0) scale(0.81);
+  transform-origin: 100% 50%;
+  opacity: 0.8;
+  z-index: 2;
+}
+.otherrooms > div > ul .p5 {
+  transform: translate3d(1594px, 0, 0) scale(0.81);
+}
+.otherrooms > div em {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../img/bedroombtn.gif) no-repeat;
+  opacity: 0;
+  z-index: 20;
+}
+.otherrooms > div em:nth-of-type(1) {
+  left: 0;
+  background-position: 0 0;
+}
+.otherrooms > div em:nth-of-type(2) {
+  right: 0;
+  background-position: 0 -60px;
+}
+.otherrooms > div:hover em {
+  opacity: 0.7;
+}
+.exotic {
+  width: 100%;
+}
+.exotic div {
+  width: 1200px;
+  height: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.exotic div h2 {
+  font-size: 36px;
+  margin-bottom: 72px;
+  font-family: 'PlantinStdBold';
+  color: #282828;
+}
+.exotic div > div {
+  width: 1200px;
+  height: 846px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.exotic div > div div:nth-of-type(1) {
+  width: 376px;
+  height: 846px;
+  display: flex;
+  flex-direction: column;
+}
+.exotic div > div div:nth-of-type(1) div {
+  width: 376px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(1) {
+  height: 268px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(1) img {
+  width: 376px;
+  height: 268px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) {
+  height: 330px;
+  text-align: left;
+  display: block;
+  margin-left: 56px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) h3:nth-of-type(2) {
+  margin-bottom: 40px;
+  font-family: 'SC-Medium';
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 46px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) .duanheng {
+  display: block;
+  width: 36px;
+  height: 0;
+  border: 1px solid #282828;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(2) .kmore {
+  display: block;
+  width: 120px;
+  height: 37px;
+  border: 2px solid #282828;
+  font-style: normal;
+  font-family: 'SC-Medium';
+  line-height: 37px;
+  text-align: center;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(3) {
+  width: 376px;
+  height: 128px;
+  background: #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(3) img {
+  width: 17px;
+  height: 17px;
+}
+.exotic div > div div:nth-of-type(1) div:nth-of-type(3) span {
+  color: white;
+  font-size: 17px;
+  font-family: 'PlantinStdBold';
+}
+.exotic div > div div:nth-of-type(2) {
+  width: 798px;
+  height: 846px;
+  position: relative;
+}
+.exotic div > div div:nth-of-type(2) div {
+  position: absolute;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(1) {
+  width: 410px;
+  height: 268px;
+  background: #282828;
+  text-align: center;
+  display: block;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(1) .duanheng {
+  display: block;
+  width: 36px;
+  height: 0;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(1) p {
+  margin-top: 56px;
+  font-size: 28px;
+  margin-bottom: 0;
+  font-family: 'SC-Medium';
+  color: white;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(1) p:nth-of-type(2) {
+  margin-top: 22px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(1) span {
+  display: block;
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: '黑体';
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(2) {
+  width: 412px;
+  height: 304px;
+  top: 300px;
+  left: 0;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(2) img {
+  width: 412px;
+  height: 304px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(3) {
+  display: block;
+  width: 798px;
+  height: 210px;
+  bottom: 0;
+  text-align: left;
+  margin-left: 56px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(3) h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #282828;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(3) h3:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(3) p {
+  font-size: 16px;
+  line-height: 57px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(3) .duanheng {
+  display: block;
+  width: 36px;
+  height: 0;
+  border: 1px solid #282828;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(4) {
+  width: 360px;
+  height: 486px;
+  top: 0;
+  right: 0;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(4) img {
+  width: 360px;
+  height: 486px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(5) {
+  width: 360px;
+  height: 226px;
+  top: 510px;
+  right: 0;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(5) img {
+  width: 360px;
+  height: 226px;
+}
+.exotic div > div div:nth-of-type(2) div:nth-of-type(6) {
+  position: absolute;
+  right: 82px;
+  bottom: 0;
+  display: block;
+  width: 120px;
+  height: 37px;
+  border: 2px solid #282828;
+  font-style: normal;
+  line-height: 37px;
+  text-align: center;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.exotic div p:nth-of-type(1) {
+  font-size: 32px;
+  margin-bottom: 95px;
+  font-family: '黑体';
+  color: #282828;
+}
+.exotic div p:nth-of-type(2) {
+  margin-top: 130px;
+  font-size: 23px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+.exotic div p:nth-of-type(3) {
+  margin-top: 56px;
+  font-size: 14px;
+  font-family: 'SC-Medium';
+  color: #282828;
+}
+/*# sourceMappingURL=guestroom.css.map */
